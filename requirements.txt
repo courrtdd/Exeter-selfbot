@@ -1,0 +1,5 @@
+aiohttp
+colorama
+discord
+numpy
+requests

@@ -5,3 +5,4 @@ numpy
 requests
 bs4
 pillow
+gtts

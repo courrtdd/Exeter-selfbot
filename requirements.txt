@@ -3,3 +3,5 @@ colorama
 discord
 numpy
 requests
+bs4
+pillow

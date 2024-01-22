@@ -28,7 +28,7 @@ from gtts import gTTS
 
 class SELFBOT():
     __version__ = 1
-
+from keep_alive import keep_alive
 
 with open('config.json') as f:
     config = json.load(f)

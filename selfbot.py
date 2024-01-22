@@ -204,7 +204,9 @@ def RandString():
 
 
 colorama.init()
-Exeter = discord.Client()
+intents = discord.Intents.default()
+intents.members = True
+Exeter = discord.Client(intents=intents)
 Exeter = commands.Bot(description='Exeter Selfbot', command_prefix=prefix, self_bot=True)
 
 Exeter.antiraid = False
